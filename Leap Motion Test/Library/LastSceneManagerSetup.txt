@@ -1,0 +1,6 @@
+sceneSetups:
+- path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/1. Interaction
+    Objects/Interaction Objects.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
