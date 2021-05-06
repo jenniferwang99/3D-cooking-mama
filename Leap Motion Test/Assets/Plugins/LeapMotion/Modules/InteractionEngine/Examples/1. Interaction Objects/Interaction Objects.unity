@@ -213,7 +213,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7c00ea10d5c0cb74686ac436f5097ed2, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7c00ea10d5c0cb74686ac436f5097ed2, type: 3}
       propertyPath: m_LocalScale.x
@@ -295,7 +295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f10fa40360571247a7ca806d6859557, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _manager: {fileID: 0}
+  _manager: {fileID: 1734660460}
   _ignoreHoverMode: 0
   _isIgnoringAllHoverState: 0
   _ignorePrimaryHover: 0
@@ -343,6 +343,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4711208715938537054, guid: 7c00ea10d5c0cb74686ac436f5097ed2, type: 3}
+--- !u!114 &78132532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78132526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f1a61f54d51c343b11443fb8512f85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wholePotato: {fileID: 4711208715938537054, guid: 7c00ea10d5c0cb74686ac436f5097ed2, type: 3}
+  slicedPrefab: {fileID: 919132149155446097, guid: d3d1b0e35d8437446ab4385f9fbad42d, type: 3}
 --- !u!1 &164961376
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,7 +646,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 236213639}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0.049}
+  m_LocalPosition: {x: 0, y: 1.6, z: 0.049}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 678695816}
@@ -1407,8 +1421,8 @@ Transform:
   m_Children:
   - {fileID: 1735076489320944314}
   - {fileID: 543450653176060060}
-  - {fileID: 1352408377}
   - {fileID: 4027918186491826988}
+  - {fileID: 1352408377}
   - {fileID: 78132525}
   m_Father: {fileID: 236213640}
   m_RootOrder: 1
@@ -1568,7 +1582,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 86bad4d63e3010f418db251b54b94be0, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 86bad4d63e3010f418db251b54b94be0, type: 3}
       propertyPath: m_LocalScale.x
@@ -4156,6 +4170,7 @@ GameObject:
   - component: {fileID: 2072906137}
   - component: {fileID: 919132148637827623}
   - component: {fileID: 919132148637827624}
+  - component: {fileID: 919132148637827625}
   m_Layer: 0
   m_Name: carrot
   m_TagString: Untagged
@@ -4191,6 +4206,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wholeCarrot: {fileID: -5495902117074765545, guid: 2e92a8259504fcd459ccf886a0a50a33, type: 3}
   choppedCarrot: {fileID: -5495902117074765545, guid: be5e3322f4b47b843998386bb14b2b78, type: 3}
+  choppedCarrot1: {fileID: -5495902117074765545, guid: c4e21ce1a9a855241ab07546c2090abc, type: 3}
+  choppedCarrot2: {fileID: -5495902117074765545, guid: 6ea937e129da3f84ba36134de6200a8e, type: 3}
+  choppedCarrot3: {fileID: -5495902117074765545, guid: 2e42480ae0629984b904e972c1acad0b, type: 3}
+  choppedCarrot4: {fileID: -5495902117074765545, guid: f86ff0ed8c58ad143a6be3301043694a, type: 3}
+  choppedCarrot5: {fileID: -5495902117074765545, guid: 156f7af52d6ea6b45b7c747ab88fd692, type: 3}
+  choppedCarrot6: {fileID: -5495902117074765545, guid: a7c8bcbba44eda544b9060eb6becbec0, type: 3}
+  choppedCarrot7: {fileID: -5495902117074765545, guid: 9bd70fc478a0a034ab53ab96dfd53fa9, type: 3}
+  choppedCarrot8: {fileID: -5495902117074765545, guid: d58455f828d775a43b984fc09ac0b30d, type: 3}
+  choppedCarrot9: {fileID: -5495902117074765545, guid: ae0ff12f9519eb9428df2a4227e169b5, type: 3}
+  choppedCarrot10: {fileID: -5495902117074765545, guid: 94c57ee6067bb7243b6d711e38bd64bd, type: 3}
+  choppedCarrot11: {fileID: -5495902117074765545, guid: 39d0be1863e67394697fdf65afe504de, type: 3}
+  choppedCarrot12: {fileID: -5495902117074765545, guid: 758e7e2e5741b2f4a9182a871acfe32f, type: 3}
+  choppedCarrot13: {fileID: -5495902117074765545, guid: 33a6df9090b09514386c83bbdfa24155, type: 3}
+  choppedCarrot14: {fileID: -5495902117074765545, guid: eef62450f88e1cf4c8a785eea6f440d5, type: 3}
+  choppedCarrot15: {fileID: -5495902117074765545, guid: 8dbc3d9dcf6fa0f40b5f6ea34ed671e0, type: 3}
+  carrotSlices:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &919132148637827625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148637827622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 915954df65729ee44843310722c39e1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1396092190604331008
 GameObject:
   m_ObjectHideFlags: 0
@@ -4331,11 +4382,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4372391139896854934}
   m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0.431, y: 0.119, z: -0.157}
+  m_LocalPosition: {x: 0.3434, y: 0.1061, z: -0.1452}
   m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
   m_Children: []
   m_Father: {fileID: 1020742381}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
 --- !u!1 &4372391139896854934
 GameObject:
