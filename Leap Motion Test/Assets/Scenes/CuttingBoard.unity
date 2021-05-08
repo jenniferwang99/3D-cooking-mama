@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.90429664, g: 0.49853492, b: 0.6411136, a: 1}
+  m_IndirectSpecularColor: {r: 0.9954888, g: 0.5840918, b: 0.7226559, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4365,6 +4365,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1020742381}
     m_Modifications:
+    - target: {fileID: 1150147233924131877, guid: ac4689ac373bcf6469135d667a34a447, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150147233924131877, guid: ac4689ac373bcf6469135d667a34a447, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150147233924131877, guid: ac4689ac373bcf6469135d667a34a447, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150147233924131877, guid: ac4689ac373bcf6469135d667a34a447, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150147233924131877, guid: ac4689ac373bcf6469135d667a34a447, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150147233924131877, guid: ac4689ac373bcf6469135d667a34a447, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3516276592571543034, guid: ac4689ac373bcf6469135d667a34a447, type: 3}
       propertyPath: m_Name
       value: knife (1)
@@ -4424,6 +4448,34 @@ PrefabInstance:
     - target: {fileID: 5242649508183052622, guid: ac4689ac373bcf6469135d667a34a447, type: 3}
       propertyPath: m_TagString
       value: blade
+      objectReference: {fileID: 0}
+    - target: {fileID: 5782067098088415679, guid: ac4689ac373bcf6469135d667a34a447, type: 3}
+      propertyPath: _ignoreContact
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275498409556201618, guid: ac4689ac373bcf6469135d667a34a447, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275498409556201618, guid: ac4689ac373bcf6469135d667a34a447, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275498409556201618, guid: ac4689ac373bcf6469135d667a34a447, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275498409556201618, guid: ac4689ac373bcf6469135d667a34a447, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275498409556201618, guid: ac4689ac373bcf6469135d667a34a447, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275498409556201618, guid: ac4689ac373bcf6469135d667a34a447, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6207124152856562785, guid: ac4689ac373bcf6469135d667a34a447, type: 3}
