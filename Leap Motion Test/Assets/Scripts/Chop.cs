@@ -27,7 +27,7 @@ public class Chop : MonoBehaviour
 
     void OnCollisionEnter(Collision collision) {
 	if (Time.realtimeSinceStartupAsDouble - chopTimeout > TIMEOUT) {
-	    if (collision.collider.tag == "knife") {
+	    if (collision.collider.tag == "blade") {
 	        cutCounter += 1;
             Debug.Log("cutting whoooo!");
             var x = Instantiate(slicedPrefab, transform.position, transform.rotation);
