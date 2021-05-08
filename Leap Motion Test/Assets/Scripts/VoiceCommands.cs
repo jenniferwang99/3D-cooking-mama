@@ -7,19 +7,25 @@ using UnityEngine.Windows.Speech;
 
 public class VoiceCommands : MonoBehaviour
 {
+    public GameObject wholeCarrot;
+    public GameObject wholePotato;
+
+    public GameObject knifePrefab;
+    
+    
     private KeywordRecognizer keywordRecognizer;
     private Dictionary<string, Action> actions = new Dictionary<string, Action>();
 
     void Start() {
-        Debug.Log("HELLO");
+        Debug.Log("Starting keyword recognizer");
 	
         actions.Add("freeze", Freeze);
         actions.Add("unfreeze", Unfreeze);
+        actions.Add("new potato", NewPotato);
 
         keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += RecognizedSpeech;
         keywordRecognizer.Start();
-        // Debug.Log(keywordRecognizer);
         
     }
 
@@ -36,5 +42,14 @@ public class VoiceCommands : MonoBehaviour
     private void Unfreeze()
     {
         GetComponent<Rigidbody>().isKinematic = true;
+    }
+
+    private void NewPotato()
+    {
+        Debug.Log("new potato incoming!");
+	
+        var x = Instantiate(wholePotato);
+        x.transform.parent = GameObject.Find("Interaction Objects").transform;
+            
     }
 }
