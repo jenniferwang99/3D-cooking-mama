@@ -18,10 +18,7 @@ public class VoiceCommands : MonoBehaviour
 
     void Start() {
         Debug.Log("Starting keyword recognizer");
-	
-        actions.Add("freeze", Freeze);
-        actions.Add("unfreeze", Unfreeze);
-        actions.Add("new potato", NewPotato);
+	    actions.Add("new potato", NewPotato);
 
         keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += RecognizedSpeech;
@@ -34,21 +31,11 @@ public class VoiceCommands : MonoBehaviour
         actions[speech.text].Invoke();
     }
 
-    private void Freeze()
-    {
-        GetComponent<Rigidbody>().isKinematic = true;
-    }
-
-    private void Unfreeze()
-    {
-        GetComponent<Rigidbody>().isKinematic = true;
-    }
-
     private void NewPotato()
     {
         Debug.Log("new potato incoming!");
 	
-        var x = Instantiate(wholePotato);
+        var x = Instantiate(wholePotato, new Vector3(0.1f, 2, 0.4f),  Quaternion.identity);
         x.transform.parent = GameObject.Find("Interaction Objects").transform;
             
     }
