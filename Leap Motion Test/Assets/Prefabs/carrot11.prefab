@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 8828669958265371515}
   - component: {fileID: 7611778947619903560}
   - component: {fileID: 2207121042763540972}
+  - component: {fileID: 684132936475774700}
   m_Layer: 0
   m_Name: carrot11
   m_TagString: Untagged
@@ -176,6 +177,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2835081155486634904, guid: 7f84fca04e1d32c4fbd43a4afe4acb4d, type: 3}
+--- !u!114 &684132936475774700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3746469451127285691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b3858725d716946b3f555d39cc4c9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxVelocity: 3
 --- !u!1 &8208726190382428919
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,6 +205,7 @@ GameObject:
   - component: {fileID: 1502780173302022277}
   - component: {fileID: 1301859697989727941}
   - component: {fileID: 1793159631036487271}
+  - component: {fileID: 8782725782875693166}
   m_Layer: 0
   m_Name: carrot
   m_TagString: Untagged
@@ -335,3 +350,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slicedPrefab: {fileID: 4003813701347824554, guid: 515777f6ea60ce249abeec499c2e89b3, type: 3}
+--- !u!114 &8782725782875693166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8208726190382428919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b3858725d716946b3f555d39cc4c9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxVelocity: 3

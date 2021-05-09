@@ -14,7 +14,9 @@ GameObject:
   - component: {fileID: 6406035766876412595}
   - component: {fileID: 6406035766876412592}
   - component: {fileID: 6063998248788463886}
-  - component: {fileID: 2360616643811644899}
+  - component: {fileID: 919132148637827624}
+  - component: {fileID: 919132148637827629}
+  - component: {fileID: 1416271422310741433}
   m_Layer: 0
   m_Name: carrot
   m_TagString: Untagged
@@ -101,7 +103,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!114 &6406035766876412592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,7 +148,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: 2e92a8259504fcd459ccf886a0a50a33, type: 3}
---- !u!114 &2360616643811644899
+--- !u!114 &919132148637827624
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,3 +161,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slicedPrefab: {fileID: 5845685413083765808, guid: 766d12b242d4a7940bb4b3bd95f98752, type: 3}
+--- !u!114 &919132148637827629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6063998248788463887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b3858725d716946b3f555d39cc4c9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxVelocity: 0.5
+--- !u!114 &1416271422310741433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6063998248788463887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b3858725d716946b3f555d39cc4c9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxVelocity: 0.5

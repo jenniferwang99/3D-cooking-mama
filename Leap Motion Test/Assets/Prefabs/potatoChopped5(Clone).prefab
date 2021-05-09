@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 449850918333480396}
   - component: {fileID: 1640300647411623918}
   - component: {fileID: 7746664456324629951}
+  - component: {fileID: 1530742761329580354}
   m_Layer: 0
   m_Name: potato5.001
   m_TagString: Untagged
@@ -144,6 +145,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8697038727907915184, guid: ce6517df0bee6a943a57b1e64859565f, type: 3}
+--- !u!114 &1530742761329580354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84668558290659879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b3858725d716946b3f555d39cc4c9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxVelocity: 3
 --- !u!1 &6361719533656226899
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,6 +204,7 @@ GameObject:
   - component: {fileID: 7539667286736251175}
   - component: {fileID: 255586241828297416}
   - component: {fileID: 7420932775665592046}
+  - component: {fileID: 7936502417226744976}
   m_Layer: 0
   m_Name: potato5
   m_TagString: Untagged
@@ -320,3 +335,16 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4844290130521348213, guid: ce6517df0bee6a943a57b1e64859565f, type: 3}
+--- !u!114 &7936502417226744976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6804513454278890584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b3858725d716946b3f555d39cc4c9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxVelocity: 3

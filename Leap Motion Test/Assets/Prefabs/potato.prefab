@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4714709338287779144}
   - component: {fileID: 4714709338287779158}
   - component: {fileID: 4714709338287779147}
+  - component: {fileID: 9153234659133312632}
   m_Layer: 0
   m_Name: potato
   m_TagString: Untagged
@@ -158,3 +159,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slicedPrefab: {fileID: 101937697299714291, guid: 42f287c7fb3920746a8f629526d5e093, type: 3}
+--- !u!114 &9153234659133312632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5597810476232806404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b3858725d716946b3f555d39cc4c9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxVelocity: 3

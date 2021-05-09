@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 922201513357702839}
   - component: {fileID: 500354681764226069}
   - component: {fileID: 3595947086605470215}
+  - component: {fileID: 7607342951880913119}
   m_Layer: 0
   m_Name: Potato
   m_TagString: Untagged
@@ -176,6 +177,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4365235181375833991, guid: d3d1b0e35d8437446ab4385f9fbad42d, type: 3}
+--- !u!114 &7607342951880913119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4353142540537574161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b3858725d716946b3f555d39cc4c9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxVelocity: 3
 --- !u!1 &5207912145713457927
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,6 +205,7 @@ GameObject:
   - component: {fileID: 8640341177319034880}
   - component: {fileID: 8708883163917094061}
   - component: {fileID: 6716140866819358990}
+  - component: {fileID: 5169685663404982855}
   m_Layer: 0
   m_Name: Potato.001
   m_TagString: Untagged
@@ -287,7 +302,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -334,3 +349,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slicedPrefab: {fileID: 294459396126705815, guid: e130d7158d098bc418b807ea293cab4b, type: 3}
+--- !u!114 &5169685663404982855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5207912145713457927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b3858725d716946b3f555d39cc4c9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxVelocity: 3
