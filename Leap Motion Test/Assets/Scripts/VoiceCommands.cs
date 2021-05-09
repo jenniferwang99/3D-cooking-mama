@@ -18,10 +18,9 @@ public class VoiceCommands : MonoBehaviour
 
     void Start() {
         Debug.Log("Starting keyword recognizer");
-	
-        actions.Add("freeze", Freeze);
-        actions.Add("unfreeze", Unfreeze);
-        actions.Add("new potato", NewPotato);
+	    actions.Add("new potato", NewPotato);
+        actions.Add("new carrot", NewCarrot);
+        actions.Add("new knife", NewKnife);
 
         keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += RecognizedSpeech;
@@ -34,21 +33,30 @@ public class VoiceCommands : MonoBehaviour
         actions[speech.text].Invoke();
     }
 
-    private void Freeze()
-    {
-        GetComponent<Rigidbody>().isKinematic = true;
-    }
-
-    private void Unfreeze()
-    {
-        GetComponent<Rigidbody>().isKinematic = true;
-    }
-
     private void NewPotato()
     {
         Debug.Log("new potato incoming!");
 	
-        var x = Instantiate(wholePotato);
+        var x = Instantiate(wholePotato, new Vector3(0.1f, 2, 0.4f),  Quaternion.identity);
+        x.transform.parent = GameObject.Find("Interaction Objects").transform;
+            
+    }
+
+
+    private void NewCarrot()
+    {
+        Debug.Log("new carrots incoming!");
+	
+        var x = Instantiate(wholeCarrot, new Vector3(0.1f, 2, 0.4f),  Quaternion.identity);
+        x.transform.parent = GameObject.Find("Interaction Objects").transform;
+            
+    }
+
+    private void NewKnife()
+    {
+        Debug.Log("new knife incoming, watch out!!");
+	
+        var x = Instantiate(knifePrefab, new Vector3(0.1f, 2, 0.4f),  Quaternion.identity);
         x.transform.parent = GameObject.Find("Interaction Objects").transform;
             
     }
