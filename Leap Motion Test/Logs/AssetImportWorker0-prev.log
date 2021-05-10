@@ -15,11 +15,11 @@ C:/Users/katya/Documents/3D-cooking-mama/Leap Motion Test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49812
+49988
 Successfully changed project path to: C:/Users/katya/Documents/3D-cooking-mama/Leap Motion Test
 C:/Users/katya/Documents/3D-cooking-mama/Leap Motion Test
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 32.54 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 33.13 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,115 +35,67 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001816 seconds.
+Registered in 0.001865 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.88 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 32.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.050 seconds
+- Completed reload, in  1.010 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001039 seconds.
+Registered in 0.001075 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.798 seconds
+- Completed reload, in  0.778 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1475 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.2 MB.
+System memory in use before: 69.3 MB.
 System memory in use after: 69.3 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1918.
-Total: 1.666800 ms (FindLiveObjects: 0.150900 ms CreateObjectMapping: 0.091500 ms MarkObjects: 1.360700 ms  DeleteObjects: 0.062700 ms)
+Total: 1.829100 ms (FindLiveObjects: 0.153200 ms CreateObjectMapping: 0.102800 ms MarkObjects: 1.499100 ms  DeleteObjects: 0.072800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(dcdc47b1da7e03a4fb52d7f0405aabc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(dcdc47b1da7e03a4fb52d7f0405aabc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9a63213a07c08c123b80b0776015f6') in 0.018267 seconds
-  Import took 0.020550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(8b2b938af880f9d4982487b81a040757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(8b2b938af880f9d4982487b81a040757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f2c0928e702dcc865d81df869817f8') in 0.014990 seconds
-  Import took 0.017347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.937713 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(dcdc47b1da7e03a4fb52d7f0405aabc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(dcdc47b1da7e03a4fb52d7f0405aabc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9a63213a07c08c123b80b0776015f6') in 0.001971 seconds
-  Import took 0.004117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.063992 seconds.
   path: Assets/Scenes/CuttingBoard.unity
   artifactKey: Guid(017ace9491c55584a93fb1551e5b4db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CuttingBoard.unity using Guid(017ace9491c55584a93fb1551e5b4db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb4bd94686aef0a9228d77a493c1a4e') in 0.011040 seconds
-  Import took 0.013775 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001029 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.718 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1463 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.6 MB.
-System memory in use after: 68.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1921.
-Total: 1.668300 ms (FindLiveObjects: 0.132100 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.455200 ms  DeleteObjects: 0.041500 ms)
+Start importing Assets/Scenes/CuttingBoard.unity using Guid(017ace9491c55584a93fb1551e5b4db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bb5cfde7cf78747aadfdba6d7e0824') in 0.009379 seconds
+  Import took 0.011584 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 130.441491 seconds.
-  path: Assets/Scenes/CuttingBoard.unity
-  artifactKey: Guid(017ace9491c55584a93fb1551e5b4db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CuttingBoard.unity using Guid(017ace9491c55584a93fb1551e5b4db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836dd92e05d386caf0acd91f86f67483') in 0.012103 seconds
-  Import took 0.014477 seconds .
+  Time since last request: 396.389014 seconds.
+  path: Assets/Images
+  artifactKey: Guid(4cfbcab21f7555a4896eb4ee69213ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images using Guid(4cfbcab21f7555a4896eb4ee69213ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdd077a548c1fbc9e5de6ab08267f13') in 0.011761 seconds
+  Import took 0.014547 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000989 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.705 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1463 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.7 MB.
-System memory in use after: 68.8 MB.
+Received Import Request.
+  Time since last request: 0.000979 seconds.
+  path: Assets/Images
+  artifactKey: Guid(4cfbcab21f7555a4896eb4ee69213ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images using Guid(4cfbcab21f7555a4896eb4ee69213ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdd077a548c1fbc9e5de6ab08267f13') in 0.001808 seconds
+  Import took 0.004089 seconds .
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1924.
-Total: 1.611500 ms (FindLiveObjects: 0.160200 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.370800 ms  DeleteObjects: 0.043100 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 14.043840 seconds.
+  path: Assets/Images/instructions_box_2.png
+  artifactKey: Guid(caf6158c91e54fe409bcde2fec80a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/instructions_box_2.png using Guid(caf6158c91e54fe409bcde2fec80a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1beb3be27145b9473e63f6e4a94694ad') in 0.116204 seconds
+  Import took 0.120531 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
