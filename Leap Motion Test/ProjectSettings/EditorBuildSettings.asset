@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stove.unity
     guid: cb538e6b02610e042a9a0b711553d0ef
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: dcdc47b1da7e03a4fb52d7f0405aabc2
   m_configObjects: {}
