@@ -49,7 +49,7 @@ public class ProgressCounter : MonoBehaviour
             lastPotatoCounter = potatoCounter;
         }
         if (carrotCounter >= 2 && potatoCounter >= 2) {
-            SceneManager.LoadScene("Stove");
+            SceneManager.LoadScene("GameOver");
         }
     }
 }
