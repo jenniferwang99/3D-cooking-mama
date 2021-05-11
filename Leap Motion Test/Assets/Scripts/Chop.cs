@@ -5,16 +5,12 @@ using UnityEngine;
 public class Chop : MonoBehaviour
 {
     private double TIMEOUT;
-    
-    private int cutCounter;
     private double chopTimeout;
     public GameObject slicedPrefab;
     
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("HELLO");
-        cutCounter = 0;
         chopTimeout = Time.realtimeSinceStartupAsDouble;
         TIMEOUT = 0.5;
     }
@@ -28,9 +24,8 @@ public class Chop : MonoBehaviour
     void OnCollisionEnter(Collision collision) {
 	if (Time.realtimeSinceStartupAsDouble - chopTimeout > TIMEOUT) {
 	    if (collision.collider.tag == "blade") {
-	        cutCounter += 1;
-            Debug.Log("cutting whoooo!");
-            var x = Instantiate(slicedPrefab, transform.position, transform.rotation);
+	        Debug.Log("cutting whoooo!");
+            var x = Instantiate(slicedPrefab, transform.position, Quaternion.Euler(new Vector3(0, 90, 0)));
             x.transform.parent = GameObject.Find("Interaction Objects").transform;
             Destroy(gameObject);
 
