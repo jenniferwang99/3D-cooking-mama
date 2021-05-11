@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ProgressCounter : MonoBehaviour
 {
@@ -46,6 +47,9 @@ public class ProgressCounter : MonoBehaviour
                 x.transform.parent = GameObject.Find("Instruction").transform;
             }
             lastPotatoCounter = potatoCounter;
+        }
+        if (carrotCounter >= 2 && potatoCounter >= 2) {
+            SceneManager.LoadScene("Stove");
         }
     }
 }
