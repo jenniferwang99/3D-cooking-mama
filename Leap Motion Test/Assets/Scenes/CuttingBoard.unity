@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.90429664, g: 0.49853492, b: 0.6411136, a: 1}
+  m_IndirectSpecularColor: {r: 0.9954888, g: 0.5840918, b: 0.7226559, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4916,6 +4916,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1968638535}
   m_CullTransparentMesh: 1
+--- !u!1 &2037052959 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 715568986209535723, guid: 5d32cfb70ebcb254f8b1d3baf07e3102, type: 3}
+  m_PrefabInstance: {fileID: 7140096418502438506}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2097589853
 GameObject:
   m_ObjectHideFlags: 0
@@ -5118,6 +5123,7 @@ GameObject:
   - component: {fileID: 78132529}
   - component: {fileID: 78132527}
   - component: {fileID: 78132530}
+  - component: {fileID: 919132149098285182}
   m_Layer: 0
   m_Name: potato
   m_TagString: Untagged
@@ -5125,6 +5131,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &919132149098285182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149098285181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd29c2bbaba159040957715bed639e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightMaterial: {fileID: 2100000, guid: eab7296a9874e674cbef3824acff150a, type: 2}
 --- !u!1 &1396092190604331008
 GameObject:
   m_ObjectHideFlags: 0
@@ -5281,6 +5300,24 @@ PrefabInstance:
     - {fileID: 919132148637827629, guid: 506dc6530da9c20419ce1f3e7240d517, type: 3}
     - {fileID: -7571470158919034071, guid: 506dc6530da9c20419ce1f3e7240d517, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 506dc6530da9c20419ce1f3e7240d517, type: 3}
+--- !u!1 &6406035765894288170 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6063998248788463887, guid: 506dc6530da9c20419ce1f3e7240d517, type: 3}
+  m_PrefabInstance: {fileID: 6406035765894288169}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6406035765894288171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6406035765894288170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd29c2bbaba159040957715bed639e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightMaterial: {fileID: 2100000, guid: eab7296a9874e674cbef3824acff150a, type: 2}
 --- !u!1001 &7140096418502438506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5332,6 +5369,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 715568986209535723, guid: 5d32cfb70ebcb254f8b1d3baf07e3102, type: 3}
+      propertyPath: m_Name
+      value: handle
+      objectReference: {fileID: 0}
     - target: {fileID: 1054753181998860766, guid: 5d32cfb70ebcb254f8b1d3baf07e3102, type: 3}
       propertyPath: m_Name
       value: knife
@@ -5340,8 +5381,29 @@ PrefabInstance:
       propertyPath: _manager
       value: 
       objectReference: {fileID: 623414476}
+    - target: {fileID: 7949251245459801499, guid: 5d32cfb70ebcb254f8b1d3baf07e3102, type: 3}
+      propertyPath: _ignoreContact
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8552000836926879082, guid: 5d32cfb70ebcb254f8b1d3baf07e3102, type: 3}
+      propertyPath: m_Name
+      value: blade
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d32cfb70ebcb254f8b1d3baf07e3102, type: 3}
+--- !u!114 &7140096418502438508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037052959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 760cb698a275ed34cb2af08dc6b286be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightMaterial: {fileID: 2100000, guid: eab7296a9874e674cbef3824acff150a, type: 2}
 --- !u!4 &7421469420470500622 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 425850486385611620, guid: 5d32cfb70ebcb254f8b1d3baf07e3102, type: 3}
