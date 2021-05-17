@@ -12,6 +12,9 @@ public class ProgressBar : MonoBehaviour
     int startTime;
     bool stoveOn;
 
+    public Material on_burner;
+    public Material off_burner;
+
     private KeywordRecognizer keywordRecognizer;
     private Dictionary<string, Action> actions = new Dictionary<string, Action>();
 
@@ -50,6 +53,8 @@ public class ProgressBar : MonoBehaviour
         Debug.Log("stove turning on!");
 	
         stoveOn = true;
+        GameObject.Find("pan_burner").GetComponent<MeshRenderer>().material = on_burner;
+        GameObject.Find("smoke_particles").GetComponent<ParticleSystem>().Play(true);
         startTime = (int) Time.timeSinceLevelLoad;
     }
 
@@ -58,10 +63,12 @@ public class ProgressBar : MonoBehaviour
         Debug.Log("stove turning off!");
 	
         stoveOn = false;
+        GameObject.Find("pan_burner").GetComponent<MeshRenderer>().material = off_burner;
+        GameObject.Find("smoke_particles").GetComponent<ParticleSystem>().Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
         startWidth = (int) transform.GetComponent<RectTransform>().rect.width;
 
         if (startWidth >= 90 && startWidth <= 105) {
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("GameOver");
         }
     }
 
