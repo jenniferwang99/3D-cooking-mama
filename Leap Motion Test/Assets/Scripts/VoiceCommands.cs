@@ -4,14 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Windows.Speech;
-
+ using UnityEngine.UI;
 public class VoiceCommands : MonoBehaviour
 {
     public GameObject wholeCarrot;
     public GameObject wholePotato;
 
     public GameObject knifePrefab;
-    
     
     private KeywordRecognizer keywordRecognizer;
     private Dictionary<string, Action> actions = new Dictionary<string, Action>();
@@ -25,14 +24,14 @@ public class VoiceCommands : MonoBehaviour
         keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += RecognizedSpeech;
         keywordRecognizer.Start();
-        
+
+  
     }
 
     private void RecognizedSpeech(PhraseRecognizedEventArgs speech) {
         Debug.Log(speech.text);
         actions[speech.text].Invoke();
     }
-
     private void NewPotato()
     {
         Debug.Log("new potato incoming!");
