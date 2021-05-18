@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2485002530683277587}
   - component: {fileID: 2283861157830445343}
   - component: {fileID: 8612677850150724390}
+  - component: {fileID: 5653479424813805424}
   m_Layer: 0
   m_Name: carrot
   m_TagString: Untagged
@@ -173,6 +174,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxVelocity: 3
+--- !u!114 &5653479424813805424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4307671375823898494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd29c2bbaba159040957715bed639e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightMaterial: {fileID: 2100000, guid: eab7296a9874e674cbef3824acff150a, type: 2}
 --- !u!1 &5200151836871319520
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,6 +202,7 @@ GameObject:
   - component: {fileID: 6188402862380973737}
   - component: {fileID: 6134956766777135163}
   - component: {fileID: 634349554567235903}
+  - component: {fileID: 2108967744517947680}
   m_Layer: 0
   m_Name: carrot4
   m_TagString: Untagged
@@ -331,6 +346,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxVelocity: 3
+--- !u!114 &2108967744517947680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5200151836871319520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd29c2bbaba159040957715bed639e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightMaterial: {fileID: 2100000, guid: eab7296a9874e674cbef3824acff150a, type: 2}
 --- !u!1 &5495970032847145811
 GameObject:
   m_ObjectHideFlags: 0

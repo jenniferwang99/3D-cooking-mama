@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1640300647411623918}
   - component: {fileID: 7746664456324629951}
   - component: {fileID: 1530742761329580354}
+  - component: {fileID: 6502042513559526598}
   m_Layer: 0
   m_Name: potato5.001
   m_TagString: Untagged
@@ -158,6 +159,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxVelocity: 3
+--- !u!114 &6502042513559526598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84668558290659879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd29c2bbaba159040957715bed639e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightMaterial: {fileID: 2100000, guid: eab7296a9874e674cbef3824acff150a, type: 2}
 --- !u!1 &6361719533656226899
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,6 +220,7 @@ GameObject:
   - component: {fileID: 7420932775665592046}
   - component: {fileID: 7936502417226744976}
   - component: {fileID: 4599294616456173605}
+  - component: {fileID: 2773202229217965431}
   m_Layer: 0
   m_Name: potato5
   m_TagString: Untagged
@@ -361,3 +376,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34392ebbdb45d23478bf23a1e42a2679, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2773202229217965431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6804513454278890584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd29c2bbaba159040957715bed639e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightMaterial: {fileID: 2100000, guid: eab7296a9874e674cbef3824acff150a, type: 2}

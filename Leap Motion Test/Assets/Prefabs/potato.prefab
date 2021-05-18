@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4714709338287779158}
   - component: {fileID: 4714709338287779147}
   - component: {fileID: 9153234659133312632}
+  - component: {fileID: 4298665708060178733}
   m_Layer: 0
   m_Name: potato
   m_TagString: Untagged
@@ -64,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5258529872825529290, guid: 7c00ea10d5c0cb74686ac436f5097ed2, type: 3}
+  - {fileID: -5258529872825529290, guid: d3d1b0e35d8437446ab4385f9fbad42d, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -172,3 +173,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxVelocity: 3
+--- !u!114 &4298665708060178733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5597810476232806404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd29c2bbaba159040957715bed639e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightMaterial: {fileID: 2100000, guid: eab7296a9874e674cbef3824acff150a, type: 2}
