@@ -53,7 +53,6 @@
      <Compile Include="Assets\Scripts\VoiceCommands.cs" />
      <Compile Include="Assets\Scripts\ProgressBar.cs" />
      <Compile Include="Assets\Scripts\PhysicsObject.cs" />
-     <Compile Include="Assets\Scripts\StartTutorial.cs" />
      <Compile Include="Assets\Scripts\SnapToHand.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
